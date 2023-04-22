@@ -114,6 +114,11 @@ a {
 
 }
 
+.box img{
+    height: 10em;
+    width: 12em;
+}
+
 .quote{
     background-color: #E5E7EB;
     font-size: 36px light italic;
