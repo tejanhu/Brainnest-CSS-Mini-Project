@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  #logo{
+    display: flex;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+#hero, #footer{
+    background-color: #1F2937;
+}
+
+#main-txt{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    text-indent: 0.5%;
+}
+
+#hero div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary-txt{
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+.hero-links{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;   
+}
+.box-container p{
+    display: flex;
+   
+}
+
+.box{
+    height: 10em;
+    width: 12em;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+
+
+#info-header-txt{
+    color: #1F2937;
+    text-align: center;
+}
+
+.cta-btn{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.cta{
+    background-color: #3882F6;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #E5E7EB;
+    border-radius: 4px;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px light italic;
+    color:#1F2937;
+    text-align: center;
+    margin-top: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+    flex-wrap: nowrap;
+}
+
+footer{
+    padding-top: 0.2em;
+    text-align: center;
+    color:#E5E7EB;
+    padding-bottom: 0.2em;
+}
+
+.sign-up-btn{
+    border: 2px white solid;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #E5E7EB;
+}
