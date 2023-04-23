@@ -55,6 +55,7 @@
 
 .hero-links{
     display: flex;
+    gap: 2em;
 }
 
 ul{
@@ -74,11 +75,13 @@ a {
 
 .box-container{
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
+    gap: 4em;
+    justify-content: center; 
 }
 .box-container p{
     display: flex;
-   
+    justify-content: center; 
 }
 
 .box{
@@ -86,6 +89,7 @@ a {
     width: 12em;
     border: 3px solid #3882F6;
     border-radius: 15px;
+   
 }
 
 
