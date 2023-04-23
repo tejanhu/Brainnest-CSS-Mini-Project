@@ -59,7 +59,8 @@ body{
 }
 
 .hero-subtxt{
-    display: flex;
+    margin-top: -2.5em;
+
 }
 
 .hero-links{
@@ -86,6 +87,7 @@ a {
     display: flex;
     flex-direction: row;  
     gap: 4em;
+    justify-items: center;
     justify-content: center; 
 }
 .box-container p{
@@ -98,7 +100,7 @@ a {
     width: 12em;
     border: 3px solid #3882F6;
     border-radius: 15px;
-   padding-bottom: -5em;
+    padding-bottom: -5em;
 }
 
 #info-header-txt{
@@ -120,17 +122,16 @@ a {
 
 .cta{
     background-color: #3882F6;
-    margin-top: 3em;
-    margin-bottom: 3em;
     display: flex;
     /* flex-direction: column; */
     text-align: center;
     color: #E5E7EB;
     justify-content: center;
-    margin-left: 11em;
+    justify-self: right;
     /* flex-direction: row; */
     border-radius: 4px;
-    width: 55em;
+    max-width: 55em;
+    margin: auto;
 }
 
 .box img{
@@ -148,13 +149,14 @@ a {
     font-size: 36px light italic;
     color:#1F2937;
     text-align: center;
-    /* margin-top: 2.5em; */
+    margin-bottom: 2.5em;
     padding-top: 2.5em;
     padding-bottom: 1em;
     flex-wrap: nowrap;
 }
 
 footer{
+    margin-top: 2em;
     padding-top: 0.2em;
     text-align: center;
     color:#E5E7EB;
