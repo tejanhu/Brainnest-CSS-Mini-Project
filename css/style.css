@@ -41,6 +41,7 @@ body{
     display: flex;
     justify-content: left;
     flex-direction: column;
+    margin-left: 1.2em;
 }
 
 #hero div{
@@ -60,7 +61,6 @@ body{
 
 .hero-subtxt{
     margin-top: -2.5em;
-
 }
 
 .hero-links{
@@ -90,6 +90,7 @@ a {
     justify-items: center;
     justify-content: center; 
 }
+
 .box-container p{
     display: flex;
     justify-content: center; 
@@ -111,6 +112,8 @@ a {
 .hero-img{
     display: flex;
     justify-content: right;
+    height: 50%;
+    gap:0.1em;
 }
 
 .cta-btn{
@@ -118,17 +121,17 @@ a {
     color: white;
     border-radius: 4px;
     border: none;
+    width: 9em;
+    height: 2.4em;
 }
 
 .cta{
     background-color: #3882F6;
     display: flex;
-    /* flex-direction: column; */
     text-align: center;
     color: #E5E7EB;
     justify-content: center;
     justify-self: right;
-    /* flex-direction: row; */
     border-radius: 4px;
     max-width: 55em;
     margin: auto;
@@ -144,9 +147,10 @@ a {
 }
 
 .cta > div p{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.5em;
 }
-
 
 .box img{
     height: 10em;
@@ -154,7 +158,7 @@ a {
     border-radius: 15px;
 }
 
-.sec-2{
+.section-2{
     margin-bottom: 10em;
 }
 
