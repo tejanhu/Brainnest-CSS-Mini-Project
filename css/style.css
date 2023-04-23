@@ -3,33 +3,33 @@
     src: url('../media/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 @font-face {
     font-family: 'Roboto';
     src: url('../media/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-  }
+}
 @font-face {
     font-family: 'Roboto';
     src: url('../media/fonts/Roboto-LightItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
-  }
+}
 
-  #logo{
+#logo{
     display: flex;
-  }
+}
 
-  body{
+body{
     font-family: 'Roboto', sans-serif;
-  }
+}
 
 #hero, #footer{
     background-color: #1F2937;
 }
 
-#main-txt{
+#hero-subheading{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
@@ -37,10 +37,15 @@
     text-indent: 0.5%;
 }
 
+.hero-text{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
 #hero div{
     display: flex;
     justify-content: space-evenly;
-
 }
 
 #logo{
@@ -51,6 +56,11 @@
 .secondary-txt{
     font-size: 18px; 
     color: #E5E7EB;
+}
+
+.hero-subtxt{
+    display: flex;
+    gap:0;
 }
 
 .hero-links{
@@ -89,14 +99,17 @@ a {
     width: 12em;
     border: 3px solid #3882F6;
     border-radius: 15px;
-   
+   padding-bottom: -5em;
 }
-
-
 
 #info-header-txt{
     color: #1F2937;
     text-align: center;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: right;
 }
 
 .cta-btn{
@@ -115,12 +128,12 @@ a {
     text-align: center;
     color: #E5E7EB;
     border-radius: 4px;
-
 }
 
 .box img{
     height: 10em;
     width: 12em;
+    border-radius: 15px;
 }
 
 .quote{
@@ -146,4 +159,10 @@ footer{
     background-color: #3882F6;
     border-radius: 4px;
     color: #E5E7EB;
+}
+
+.quote p:nth-child(2){
+    display: flex;
+    justify-content: center;
+    padding-left: 20em;
 }
