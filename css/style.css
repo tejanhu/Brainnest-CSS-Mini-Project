@@ -132,7 +132,21 @@ a {
     border-radius: 4px;
     max-width: 55em;
     margin: auto;
+    height: 7em;
 }
+
+.cta > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+}
+
+.cta > div p{
+    margin: 0;
+}
+
 
 .box img{
     height: 10em;
@@ -168,6 +182,8 @@ footer{
     background-color: #3882F6;
     border-radius: 4px;
     color: #E5E7EB;
+    height: 2em;
+    width: 6em;
 }
 
 .quote p:nth-child(2){
