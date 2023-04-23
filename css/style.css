@@ -60,7 +60,6 @@ body{
 
 .hero-subtxt{
     display: flex;
-    gap:0;
 }
 
 .hero-links{
@@ -124,10 +123,14 @@ a {
     margin-top: 3em;
     margin-bottom: 3em;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     text-align: center;
     color: #E5E7EB;
+    justify-content: center;
+    margin-left: 11em;
+    /* flex-direction: row; */
     border-radius: 4px;
+    width: 55em;
 }
 
 .box img{
@@ -136,14 +139,18 @@ a {
     border-radius: 15px;
 }
 
+.sec-2{
+    margin-bottom: 10em;
+}
+
 .quote{
     background-color: #E5E7EB;
     font-size: 36px light italic;
     color:#1F2937;
     text-align: center;
-    margin-top: 2.5em;
+    /* margin-top: 2.5em; */
     padding-top: 2.5em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     flex-wrap: nowrap;
 }
 
