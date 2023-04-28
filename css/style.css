@@ -90,6 +90,7 @@ a {
     gap: 4em;
     justify-items: center;
     justify-content: center; 
+    flex-wrap: wrap;
 }
 
 .box-container p{
@@ -103,6 +104,10 @@ a {
     border: 3px solid #3882F6;
     border-radius: 15px;
     padding-bottom: -5em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
 }
 
 #info-header-txt{
@@ -124,7 +129,7 @@ a {
     border: none;
     width: 9em;
     height: 2.4em;
-    margin-bottom: 6.5em;
+    margin-bottom: 1.5em;
 }
 
 .cta{
@@ -138,6 +143,7 @@ a {
     max-width: 55em;
     margin: auto;
     height: 7em;
+    flex-wrap: wrap;
 }
 
 .cta > div{
@@ -199,5 +205,5 @@ footer{
 }
 
 .hero-container{
-    margin-top: 2em;
+    flex-wrap: wrap;
 }
