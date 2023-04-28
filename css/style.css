@@ -42,6 +42,7 @@ body{
     justify-content: left;
     flex-direction: column;
     margin-left: 1.2em;
+    margin-top: -3em;
 }
 
 #hero div{
@@ -123,6 +124,7 @@ a {
     border: none;
     width: 9em;
     height: 2.4em;
+    margin-bottom: 6.5em;
 }
 
 .cta{
@@ -194,4 +196,8 @@ footer{
     display: flex;
     justify-content: center;
     padding-left: 20em;
+}
+
+.hero-container{
+    margin-top: 2em;
 }
